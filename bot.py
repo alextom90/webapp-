@@ -46,8 +46,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Основний запуск
 def main():
-    app = ApplicationBuilder().token("7765881253:AAGeSg759wEnbkrqIINg3gK6xfyCeco3SPw").build()
-
+    app = ApplicationBuilder().token("7715128894:AAGLWpKmPDcwdv1MiOCXL-AoKScfZmc6D4s"buila()
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
         states={
